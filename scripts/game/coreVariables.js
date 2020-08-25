@@ -1,0 +1,10 @@
+var canBuild = false;
+var turnNum;
+var subTurnNum = 0;
+var playerIDs;
+var player;
+var playerNum;
+var boardState;
+var inventories;
+var wid;
+var ver;

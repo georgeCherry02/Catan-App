@@ -1,0 +1,157 @@
+#inventory {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#resInv, #cardInv {
+	font-size: 1.2em;
+	position: absolute;
+	width: 70px;
+	padding: 5px;
+	background-color: #ccc;
+	border: 1px solid black;
+	border-radius: 10px;
+	top: 5px;
+	left: 5px;
+}
+#cardInv {
+	left: 90px;
+	width: max-content;
+}
+#turn-info {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	text-align: center;
+	width: max-content;
+	z-index: 5;
+	background-color: #ccc;
+	border: 1px black solid;
+	border-radius: 10px;
+	padding: 5px;
+}
+.turn-state {
+	width: 50px;
+	height: 20px;
+	line-height: 20px;
+	border: 1px solid black;
+	border-radius: 5px;
+	display: inline-block;
+}
+#roll {
+	background-color: red;
+}
+#trade {
+	background-color: green;
+}
+#build {
+	background-color: blue;
+}
+#prog-turn {
+	width: max-content;
+	height: 20px;
+	line-height: 20px;
+	border-radius: 5px;
+	background-color: #ccc;
+	border: 1px solid black;
+	padding: 4px;
+	display: inline-block;
+	margin-top: 5px;
+}
+#actionPanel {
+	position: absolute;
+	bottom: 100px;
+	left: 5px;
+}
+.actionButton {
+	border: 1px black solid;
+	width: 58px;
+	height: 58px;
+	position: absolute;
+	text-align: center;
+	line-height: 58px;
+}
+#buildRoad {
+	background-color: red;
+	left: 59px;
+}
+#buildSettle {
+	background-color: blue;
+	left: 118px;
+}
+#buildCity {
+	background-color: yellow;
+	left: 177px;
+}
+#buyCard {
+	background-color: white;
+}
+#diceRoll {
+	position: absolute;
+	bottom: 100px;
+	right: 0px;
+}
+form.discardCards {
+	text-align: left;
+	margin-left: 33px;
+}
+.discardType {
+	margin-top: 10px;
+}
+.discardTitle {	
+	margin-top: 10px;
+}
+#discardSubmit {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: #ddd solid 1px;
+	background-color: #bbb;
+	border-radius: 5px;
+	display: inline-block;
+}
+.discardWait {
+	margin: 5px 15px;
+}
+#leftToDiscard {
+	display: inline-block;
+	position: absolute;
+	right: 45px;
+	bottom: 15px;
+}
+.roll7Msg {
+	margin: 5px 15px;
+}
+.tradeFrom h4 {
+	display: inline-block;
+	margin-top: 5px;
+	padding: 2px;
+}
+.offeredInfo, .requestedInfo {
+	text-align: left;
+	border-radius: 15px;
+	background-color: #ddd;
+	border: 1px solid #bbb;
+	width: 80px;
+	margin: 10px;
+}
+.offered, .requested, .offeredInfo, .requestedInfo {
+	display: inline-block;
+	padding: 10px;
+}
+.tradeOption {
+	width: 70px;
+	height: 60px;
+	border: 2px solid #bbb;
+	border-radius: 10px;
+	display: inline-block;
+	padding: 5px;
+}
+.acceptTrade {
+	background-color: green;
+}
+.revealCounter {
+	background-color: blue;
+}
+.rejectTrade {
+	background-color: red;
+}
